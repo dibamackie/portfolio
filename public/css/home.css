@@ -1,0 +1,35 @@
+/* Home page styles */
+.intro {
+  background: #000000;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .intro {
+    padding: 15px;
+  }
+}
+
+
+main {
+  background-color: #000000;
+}
+
+
+body::-webkit-scrollbar {
+  width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: rgb(183, 133, 213);
+}
+
+
+body::-webkit-scrollbar-thumb {
+  background: rgb(58, 7, 74);
+}

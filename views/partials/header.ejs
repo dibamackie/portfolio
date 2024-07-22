@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Diba Makki's Portfolio</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+    <% if (page === 'home') { %>
+    <link rel="stylesheet" href="/css/home.css" />
+    <% } else if (page === 'about') { %>
+    <link rel="stylesheet" href="/css/about.css" />
+    <% } else if (page === 'projects') { %>
+    <link rel="stylesheet" href="/css/projects.css" />
+    <% } else if (page === 'contact') { %>
+    <link rel="stylesheet" href="/css/contact.css" />
+    <% } %>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="header-wrapper">
+      <header>
+        <div class="container">
+          <div class="name">
+            <h1>Diba Makki</h1>
+          </div>
+          <nav>
+            <div class="burger-menu">
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+            </div>
+            <ul id="nav-links">
+              <li>
+                <a href="/" class="<%= page === 'home' ? 'active' : '' %>"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a href="/about" class="<%= page === 'about' ? 'active' : '' %>"
+                  >About</a
+                >
+              </li>
+              <li>
+                <a
+                  href="/projects"
+                  class="<%= page === 'projects' ? 'active' : '' %>"
+                  >Projects</a
+                >
+              </li>
+              <li>
+                <a
+                  href="/contact"
+                  class="<%= page === 'contact' ? 'active' : '' %>"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+    </div>
+    <main>

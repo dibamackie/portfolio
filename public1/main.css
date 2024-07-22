@@ -1,0 +1,99 @@
+* {
+    text-decoration: none;
+    box-sizing:content-box;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  h1 {
+margin: 10px;
+padding-top: 10px;
+  }
+
+  h3{
+    margin: 10px;
+    padding-bottom: 10px;
+  }
+
+  body {
+    margin: 5px;
+    padding: 20px;
+    background-color: rgb(199, 199, 199);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover; 
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.5;
+      margin: 0;
+      padding: 0;
+    }
+
+
+
+  .nav__links {
+    list-style: none;
+    background-color: rgb(205, 205, 205);
+    margin: 5px;
+    padding: 20px;
+      }
+    
+
+  .nav__links li {
+     display: inline-block;
+     padding: 0px 20px;
+      }
+      
+      .nav__links li a{
+        transition: all 0.3s ease 0s;
+      }
+      
+      .nav__links li a:hover{
+        color: blue;
+      }
+
+      button{
+        padding: 9px 25px;
+        background-color: silver;
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+        transition: all 0.3s ease 0s;
+      }
+
+
+      button:hover {
+        background-color: rgb(144, 233, 251, 0.8);
+      }
+
+
+    label {
+        display: block; 
+        margin-bottom: 5px;
+        font-weight: bold; 
+    }
+
+
+
+    body::-webkit-scrollbar {
+        width: 0.25rem;
+    }
+
+    body::-webkit-scrollbar-track {
+        background: red;
+    }
+
+
+    body::-webkit-scrollbar-thumb {
+        background: blue;
+    }
+    
+
+i {
+    font-size: 40px;
+    padding: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+
+      
+}
